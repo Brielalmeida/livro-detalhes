@@ -13,6 +13,7 @@
     border-width: 2px;
     font-family: inherit;
     width: 100%;
+    border-color: #000;
 }
 
 .search input:focus, select:focus {
@@ -29,6 +30,8 @@
     border-width: 2px;
     background-color: var(--amaelo-primario);
     transition: all 60ms;
+    border: #000;
+    color: #000;
 }
 
 .search button:hover {
