@@ -1,0 +1,20 @@
+.card {
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    justify-content: center;
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.link:hover {
+    background-color: var(--cinza-escuro);
+    cursor: pointer;
+}
+
+.link:active {
+    background-color: var(--cinza-claro);
+}

@@ -1,0 +1,51 @@
+
+
+
+.livro img {
+    width: 100%;
+    max-width: 5.5em;
+    max-height: 8em;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: 4px;
+    
+}
+
+.livro {
+    display: flex;
+    gap: 40px;
+    justify-content:flex-start;
+    max-height: 10em;
+}
+
+.texto h2 {
+    font-size: 32px;
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.texto p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    max-width: 80em;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+}
+
+.info p{
+    margin: 0;
+    font-size: 16px;
+}
+
+.avaliacao {
+    display: flex;
+    align-items: center;
+}

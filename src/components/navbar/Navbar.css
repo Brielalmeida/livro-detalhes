@@ -1,0 +1,32 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 160px;
+    top: 0;
+    left: 0;
+    right: 0;
+    gap: 4em;
+    background-color: var(--background-color);
+    border-bottom: 3px hsl(0, 0%, 0%) dashed;
+}
+
+.icon {
+    min-width: 50px;
+  min-height: 50px;
+  max-width: 64px;
+  max-height: 64px;
+  color: black;
+}
+
+@media (max-width: 720px) {
+    .navbar{
+        padding: 30px 80px;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .navbar{
+        padding: 30px 16px;
+    }
+}

@@ -1,0 +1,44 @@
+:root {
+  --amaelo-primario: hsl(46, 100%, 71%);
+  --amarelo-ligth-primario: hsl(46, 100%, 65%);
+  --amarelo-dark-primario: hsl(46, 100%, 50%);
+  --background-color: #F8F4EB;
+  --branco:hsl(0, 0%, 100%);
+  --cinza-claro:hsl(0, 0%, 90%);
+  --cinza-escuro:hsl(0, 0%, 95%);
+
+  --box-shadow: 4px 6px 0px #000;
+  --border: 2px solid #000;
+
+  
+  
+}
+
+body {
+  margin: 0;
+  font-family:  'inter', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  margin: 0px 160px;
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (max-width: 720px) {
+  body{
+    margin: 0 80px;
+  }
+}
+
+@media (max-width: 450px) {
+  body{
+    margin: 0 16px;
+  }
+}

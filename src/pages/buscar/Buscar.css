@@ -1,0 +1,18 @@
+.buscar {
+    padding: 12.75em 50px 0px;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: space-between; 
+    gap: 40px;
+}
+
+.lista {
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}

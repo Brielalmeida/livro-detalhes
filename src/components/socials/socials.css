@@ -1,0 +1,15 @@
+.socials {
+    position: fixed;
+    bottom: 30px;
+    right: 160px;
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 800px) {
+    .socials {
+        left: 0;
+        right: 0;
+        justify-content: center;
+    }
+}
